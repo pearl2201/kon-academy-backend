@@ -1,0 +1,58 @@
+Watching for file changes with StatReloader
+[36mGET /admin/konacademy/assetpackage/[0m
+[36m{'HTTP_HOST': '139.180.219.27:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_REFERER': 'http://139.180.219.27:8000/admin/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_ACCEPT_LANGUAGE': 'en-US,en;q=0.9,fr;q=0.8,vi;q=0.7', 'HTTP_COOKIE': 'io=YqAChMJamsRNE6T_AAAA; csrftoken=qxzNE3RCr6PBmfh7kBw9DlZvLSeaST47G3ndO1tgwmHPq7btRYLuh8JBKLDPLrAI; sessionid=lpytsvgz9xuwc080hcx6jw6hm4297jgs'}[0m
+[36mGET /admin/konacademy/assetpackage/ - 200[0m
+[04/Jul/2019 03:28:36] "GET /admin/konacademy/assetpackage/ HTTP/1.1" 200 4655
+[04/Jul/2019 03:28:36] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[04/Jul/2019 03:28:36] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[04/Jul/2019 03:28:36] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[36mGET /admin/jsi18n/[0m
+[36m{'HTTP_HOST': '139.180.219.27:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', 'HTTP_ACCEPT': '*/*', 'HTTP_REFERER': 'http://139.180.219.27:8000/admin/konacademy/assetpackage/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_ACCEPT_LANGUAGE': 'en-US,en;q=0.9,fr;q=0.8,vi;q=0.7', 'HTTP_COOKIE': 'io=YqAChMJamsRNE6T_AAAA; csrftoken=qxzNE3RCr6PBmfh7kBw9DlZvLSeaST47G3ndO1tgwmHPq7btRYLuh8JBKLDPLrAI; sessionid=lpytsvgz9xuwc080hcx6jw6hm4297jgs'}[0m
+[04/Jul/2019 03:28:36] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[36mGET /admin/jsi18n/ - 200[0m
+[04/Jul/2019 03:28:36] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[04/Jul/2019 03:28:36] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[04/Jul/2019 03:28:36] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[04/Jul/2019 03:28:36] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[04/Jul/2019 03:28:36] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[04/Jul/2019 03:28:36] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[04/Jul/2019 03:28:36] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[04/Jul/2019 03:28:36] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[04/Jul/2019 03:28:37] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[04/Jul/2019 03:28:37] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[04/Jul/2019 03:28:37] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[04/Jul/2019 03:28:37] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[04/Jul/2019 03:28:37] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[36mGET /admin/[0m
+[36m{'HTTP_HOST': '139.180.219.27:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_REFERER': 'http://139.180.219.27:8000/admin/konacademy/assetpackage/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_ACCEPT_LANGUAGE': 'en-US,en;q=0.9,fr;q=0.8,vi;q=0.7', 'HTTP_COOKIE': 'io=YqAChMJamsRNE6T_AAAA; csrftoken=qxzNE3RCr6PBmfh7kBw9DlZvLSeaST47G3ndO1tgwmHPq7btRYLuh8JBKLDPLrAI; sessionid=lpytsvgz9xuwc080hcx6jw6hm4297jgs'}[0m
+[36mGET /admin/ - 200[0m
+[04/Jul/2019 03:28:39] "GET /admin/ HTTP/1.1" 200 8389
+[04/Jul/2019 03:28:39] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[04/Jul/2019 03:28:39] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+[04/Jul/2019 03:28:39] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[04/Jul/2019 03:28:39] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[36mGET /admin/[0m
+[36m{'HTTP_HOST': '139.180.219.27:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_REFERER': 'http://139.180.219.27:8000/admin/konacademy/assetpackage/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_ACCEPT_LANGUAGE': 'en-US,en;q=0.9,fr;q=0.8,vi;q=0.7', 'HTTP_COOKIE': 'io=YqAChMJamsRNE6T_AAAA; csrftoken=qxzNE3RCr6PBmfh7kBw9DlZvLSeaST47G3ndO1tgwmHPq7btRYLuh8JBKLDPLrAI; sessionid=lpytsvgz9xuwc080hcx6jw6hm4297jgs'}[0m
+[36mGET /admin/ - 200[0m
+[04/Jul/2019 03:28:44] "GET /admin/ HTTP/1.1" 200 8389
+[36mGET /[0m
+[36m{'HTTP_HOST': '139.180.219.27:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_ACCEPT_LANGUAGE': 'en-US,en;q=0.9,fr;q=0.8,vi;q=0.7', 'HTTP_COOKIE': 'io=YqAChMJamsRNE6T_AAAA; csrftoken=qxzNE3RCr6PBmfh7kBw9DlZvLSeaST47G3ndO1tgwmHPq7btRYLuh8JBKLDPLrAI; sessionid=lpytsvgz9xuwc080hcx6jw6hm4297jgs'}[0m
+[35mGET / - 404[0m
+Not Found: /
+[04/Jul/2019 03:28:48] "GET / HTTP/1.1" 404 2260
+/root/konapp/kon-academy-backend/konapp/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 04, 2019 - 03:27:32
+Django version 2.2.3, using settings 'konapp.settings'
+Starting development server at http://139.180.219.27:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 04, 2019 - 03:35:28
+Django version 2.2.3, using settings 'konapp.settings'
+Starting development server at http://139.180.219.27:8000/
+Quit the server with CONTROL-C.
