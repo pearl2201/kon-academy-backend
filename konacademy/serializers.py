@@ -1,5 +1,5 @@
 from rest_framework import routers, serializers, viewsets
-from .models import KonUser, AssetPackage, Lesson
+from .models import KonUser, AssetPackage, Lesson, Category, Book
 from konapp import settings
 
 from django.contrib.auth import get_user_model
@@ -31,3 +31,15 @@ class LessonSerializer(serializers.HyperlinkedModelSerializer):
         model = Lesson
         fields = ('id','title', 'description', 'image', 'content','author','assets','created_date','modified_date')
         read_only_fields = ('author','created_date','modified_date')
+
+class CategorySerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = Category
+        fields = ('id','title')
+
+class BookSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = Book
+        fields = ('id','title', 'description', 'image', 'content','author','assets','created_date','modified_date','category')
+        read_only_fields = ('author','created_date','modified_date')
+       
