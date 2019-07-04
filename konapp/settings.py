@@ -25,7 +25,7 @@ SECRET_KEY = 'k9uy^kq5kp9^4(0kz(-@j8_o$g(7(=k_bs#ru)3pc@1ez0fxmr'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mateup.vn']
 
 
 # Application definition
