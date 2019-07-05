@@ -42,11 +42,10 @@ class Book(models.Model):
     title = models.TextField(blank=False)
     description = models.TextField(blank=True)
     image = models.ImageField()
-    content = models.TextField(blank=True)
     created_date = models.DateTimeField(auto_now_add=True, editable=False)
     modified_date = models.DateTimeField(auto_now=True)
     author = models.ForeignKey('KonUser', on_delete=models.CASCADE)
-    assets = models.ForeignKey('AssetPackage', on_delete=models.CASCADE)
+    asset = models.FileField(blank=True, default='')
     category = models.ForeignKey('Category', on_delete=models.CASCADE)
 
     def __str__(self):
