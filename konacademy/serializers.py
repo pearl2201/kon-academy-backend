@@ -40,6 +40,6 @@ class CategorySerializer(serializers.HyperlinkedModelSerializer):
 class BookSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Book
-        fields = ('id','title', 'description', 'image', 'content','author','assets','created_date','modified_date','category')
+        fields = ('id','title', 'description', 'image','author','asset','created_date','modified_date','category')
         read_only_fields = ('author','created_date','modified_date')
        
