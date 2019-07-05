@@ -38,6 +38,7 @@ class CategorySerializer(serializers.HyperlinkedModelSerializer):
         fields = ('id','title')
 
 class BookSerializer(serializers.HyperlinkedModelSerializer):
+    author = KonUserSerializer()
     class Meta:
         model = Book
         fields = ('id','title', 'description', 'image','author','asset','created_date','modified_date','category')
